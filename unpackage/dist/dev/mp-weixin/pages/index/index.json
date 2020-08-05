@@ -1,0 +1,6 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "news-item": "/pages/index/news-item"
+  }
+}
