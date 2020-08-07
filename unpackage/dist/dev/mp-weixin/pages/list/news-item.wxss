@@ -24,21 +24,21 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.newsItem.data-v-77cead67 {
+.newsItem.data-v-f5990f56 {
   font-size: 18rpx;
   padding: 15rpx;
 }
-.newsItem .top-main.data-v-77cead67 {
+.newsItem .top-main.data-v-f5990f56 {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
 }
-.newsItem .top-main .img.data-v-77cead67 {
+.newsItem .top-main .img.data-v-f5990f56 {
   width: 250rpx;
   height: 180rpx;
   margin-right: 10rpx;
 }
-.newsItem .top-main .top-right.data-v-77cead67 {
+.newsItem .top-main .top-right.data-v-f5990f56 {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
           flex: 1;
@@ -50,12 +50,12 @@
   -webkit-flex-direction: column;
           flex-direction: column;
 }
-.newsItem .top-main .top-right .t-text.data-v-77cead67 {
+.newsItem .top-main .top-right .t-text.data-v-f5990f56 {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
           flex: 1;
 }
-.newsItem .top-main .top-right .t-text .span.data-v-77cead67 {
+.newsItem .top-main .top-right .t-text .span.data-v-f5990f56 {
   font-size: 20rpx;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -63,7 +63,7 @@
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
 }
-.newsItem .top-main .top-right .b-text.data-v-77cead67 {
+.newsItem .top-main .top-right .b-text.data-v-f5990f56 {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -71,23 +71,23 @@
   -webkit-justify-content: space-between;
           justify-content: space-between;
 }
-.newsItem .bottom-btn.data-v-77cead67 {
+.newsItem .bottom-btn.data-v-f5990f56 {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
   margin-top: 20rpx;
 }
-.newsItem .bottom-btn .time.data-v-77cead67 {
+.newsItem .bottom-btn .time.data-v-f5990f56 {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
           flex: 1;
 }
-.newsItem .bottom-btn .button.data-v-77cead67 {
+.newsItem .bottom-btn .button.data-v-f5990f56 {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
 }
-.newsItem .bottom-btn .button button.data-v-77cead67 {
+.newsItem .bottom-btn .button button.data-v-f5990f56 {
   border-radius: 15rpx;
   width: 80rpx;
   height: 30rpx;

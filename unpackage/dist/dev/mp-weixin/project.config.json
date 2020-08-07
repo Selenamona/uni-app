@@ -1,41 +1,39 @@
 {
-	"description": "项目配置文件。",
-	"packOptions": {
-		"ignore": []
-	},
-	"setting": {
-		"urlCheck": true,
-		"es6": true
-	},
-	"compileType": "miniprogram",
-	"libVersion": "",
-	"appid": "touristappid",
-	"projectname": "uniapp-pro",
-	"simulatorType": "wechat",
-	"simulatorPluginLibVersion": {},
-	"condition": {
-		"search": {
-			"current": -1,
-			"list": []
-		},
-		"conversation": {
-			"current": -1,
-			"list": []
-		},
-		"game": {
-			"current": -1,
-			"list": []
-		},
-		"miniprogram": {
-			"current": 0,
-			"list": [
-				{
-					"name": "",
-					"path": "",
-					"query": "",
-					"id": 0
-				}
-			]
-		}
-	}
+  "description": "项目配置文件。",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "",
+  "appid": "wx8f093db76f73b299",
+  "projectname": "uniapp-pro",
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": 0,
+      "list": [
+        {
+          "name": "",
+          "path": "",
+          "query": "",
+          "id": 0
+        }
+      ]
+    }
+  }
 }

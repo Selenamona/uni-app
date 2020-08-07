@@ -1,12 +1,24 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/fullScreen/fullScreen",
+    "pages/index/index",
+    "pages/list/index",
+    "pages/list/index-swiper",
+    "pages/login/login",
+    "pages/htmlToImg/htmlToImg"
   ],
   "subPackages": [],
   "window": {
     "navigationStyle": "custom",
-    "backgroundColor": "#FFFFFF"
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#007AFF",
+    "backgroundColor": "#000"
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap4.json"
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取位置信息custom"
+    }
+  },
+  "usingComponents": {}
 }
