@@ -1,0 +1,1 @@
+<view class="ani"><button type="default" data-event-opts="{{[['tap',[['goBack',['$event']]]]]}}" bindtap="__e">before page</button><button type="default" data-event-opts="{{[['tap',[['setColorIndex',[colorIndex>1?0:colorIndex+1]]]]]}}" bindtap="__e">changeColor</button><view style="{{'color:'+(currentColor)+';'}}">{{testname}}</view></view>

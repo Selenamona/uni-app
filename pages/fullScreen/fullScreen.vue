@@ -2,7 +2,7 @@
 	<view class="bg-img">
 		<view class="bg"></view>
 		<view class="content"> 拍车帝
-			<image class="img" src="../../static/images/timg%20(2).jpg" mode=""></image>
+			<image @click="previewImg" class="img" src="../../static/images/timg%20(2).jpg" mode=""></image>
 		</view>
 	</view>
 </template>
@@ -15,7 +15,28 @@
 			}
 		},
 		methods: {
-
+			previewImg() {
+				uni.chooseImage({
+				    count: 6,
+				    sizeType: ['original', 'compressed'],
+				    sourceType: ['album'],
+				    success: function(res) {
+				        // 预览图片
+				        uni.previewImage({
+				            urls: res.tempFilePaths,
+				            longPressActions: {
+				                itemList: ['发送给朋友', '保存图片', '收藏'],
+				                success: function(data) {
+				                    console.log('选中了第' + (data.tapIndex + 1) + '个按钮,第' + (data.index + 1) + '张图片');
+				                },
+				                fail: function(err) {
+				                    console.log(err.errMsg);
+				                }
+				            }
+				        });
+				    }
+				    });
+			}
 		}
 	}
 </script>
@@ -43,6 +64,7 @@
 		font-size: 20rpx;
 		color: #007AFF;
 	}
+
 	.img {
 		display: block;
 		margin-top: 60rpx;

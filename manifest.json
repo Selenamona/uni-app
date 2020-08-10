@@ -45,7 +45,8 @@
         "appid" : "wx8f093db76f73b299",
         "setting" : {
             "urlCheck" : false,
-            "es6" : true
+            "es6" : true,
+            "minified" : false
         },
         "permission" : {
             "scope.userLocation" : {

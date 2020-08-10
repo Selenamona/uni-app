@@ -1,11 +1,13 @@
 {
   "pages": [
-    "pages/fullScreen/fullScreen",
+    "pages/test/test",
     "pages/index/index",
+    "pages/fullScreen/fullScreen",
     "pages/list/index",
     "pages/list/index-swiper",
     "pages/login/login",
-    "pages/htmlToImg/htmlToImg"
+    "pages/htmlToImg/htmlToImg",
+    "pages/test/test2"
   ],
   "subPackages": [],
   "window": {
