@@ -1,8 +1,10 @@
 {
-	"pages": [{
-		"path": "pages/test/test",
-		"style": {}
-	}, {
+	"pages": [
+	// 	{
+	// 	"path": "pages/test/test",
+	// 	"style": {}
+	// },
+	{
 		"path": "pages/index/index",
 		"style": {}
 	}, {
@@ -28,10 +30,10 @@
 		"style": {}
 	}],
 	"globalStyle": {
-		"navigationStyle": "custom", // 若设置此项，无导航栏，且导航栏相关设置失效
+		// "navigationStyle": "custom", // 若设置此项，无导航栏，且导航栏相关设置失效
 		"navigationBarTextStyle": "white", // 导航栏标题颜色及状态栏前景颜色，仅支持 black/white
 		"navigationBarTitleText": "uni-app", // 导航栏标题文字内容
-		"navigationBarBackgroundColor": "#007AFF", // 导航栏背景颜色
+		"navigationBarBackgroundColor": "#000", // 导航栏背景颜色
 		"backgroundColor": "#000" // 下拉显示出来的窗口的背景色
 	},
 	"condition": { //模式配置，仅开发期间生效

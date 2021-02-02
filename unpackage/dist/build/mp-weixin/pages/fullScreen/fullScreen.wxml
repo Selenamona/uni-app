@@ -1,0 +1,1 @@
+<view class="bg-img"><view class="bg"></view><view class="content">拍车帝<image class="img" src="../../static/images/timg%20(2).jpg" mode data-event-opts="{{[['tap',[['previewImg',['$event']]]]]}}" bindtap="__e"></image></view></view>
